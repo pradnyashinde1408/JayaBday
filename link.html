@@ -1,0 +1,391 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <title>Startupworld · Using Bootstrap</title>
+
+    <link rel="canonical" href="#">
+
+    <!-- Bootstrap core CSS -->
+<link href="https://getbootstrap.com/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="https://getbootstrap.com/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .container{
+        margin-top: -20px;
+      }
+
+      .blockquote {
+    padding: .5rem 1rem;
+    border-left: .25rem solid #eceeef;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+}
+
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 25px;
+}
+.card-background{
+    background-position: 50%;
+    background-size: cover;
+    text-align: center;
+    
+}
+.card-background .card-body, .front-background .card-body {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;}
+    
+.card-image{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+}  
+@media screen and (max-width: 768px)
+ {
+  .col-md-6 {
+   
+    padding-bottom: 20px;
+  }
+
+ 
+  .row{
+    margin-bottom:-25px;
+  }
+  /* .col-md-12{
+    margin-top: 10px;
+  } */
+    
+}  
+
+
+@media screen and (max-width: 1000px){
+  .img-fluid{
+   padding-top: 20px;
+  }
+}
+@media screen and (min-width: 872px){
+  .img-fluid{
+    height:600px;
+    width: 100%;
+    /* padding-top: 30px; */
+  }
+}
+
+.navbar{
+  padding: 25px;
+}
+.navbar-brand{
+  margin-left: -20px;
+
+}
+.navbar-nav{
+  padding-right: 126px;
+}
+
+#cont{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  /* padding: 25px; */
+  /* background-image:url('img/pic7.jpg');
+  margin-bottom: 0px; */
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+} 
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.5/examples/carousel/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #EEEDE7;">
+        <div class="container">
+          
+        <a class="navbar-brand" href="#"><b> Bol-bachhan Ka Bday 😁😘 </b></a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mt-2 mt-md-0">
+           
+          </ul>
+         
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>We</b><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>were</b></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>innocent</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>buddies 🙂,</b></a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>then</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>you</b></a>
+        </li>
+          
+          <li class="nav-item">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>came</b></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" style="letter-spacing: 2.0px;"><b>along 😜</b></a>
+          </li>
+         
+         
+          </ul>
+    
+        </div>
+    </div> 
+    </nav>
+</header>
+
+<main role="main">
+
+  
+    <img src="img/img107.jpeg" class="img-fluid" alt="Responsive image">
+ 
+
+
+  <!-- <div class="card card-image img-fluid mt-4" style="background-image: url('img/img102.jpeg');">
+    <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+      <div class="py-5">
+        <h2 class="card-title h2 my-4 py-2">Measure Social Footprint of a Student and reward him/her</h2>
+        <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
+        <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a>
+  
+      </div>
+    </div>
+    
+  </div> -->
+  <center><h1 style="font-size: 35px; color:black; letter-spacing: 2px; margin-top: 18px;font-family: Georgia, 'Times New Roman', Times, serif;">
+    On Our Special One's Special Day...</h1></center>
+
+  <div class="container" style="margin-top: 8px;">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-raised card-background" style="background-color: #FEC84D;">
+            <div class="card-body">
+              
+              <!-- <a href="#pablo"> -->
+                <h3 class="card-title">Happie Birthday Jay-shree!!</h3>
+              <!-- </a> -->
+              <p class="card-description">
+                Happie Happie Birthday Jay-shree #Jayaaa❤️ I wish god'll give u lots of strength, power to fulfill ur all wishes, dreams😃 keep laughing, smiling, joking, badbading😉🤭as always u do #loads of love❤️❤️
+              </p>
+              <h6 class="card-category text-info">From Tanuja</h6>
+              <!-- <a href="#pablo" class="btn btn-danger btn-round">
+               Read Article
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-raised card-background" style="background-color: #A16AE8;">
+            <div class="card-body">
+              
+              <!-- <a href="#pablo"> -->
+                <h3 class="card-title">Happiest Birthday Sista!!</h3>
+              <!-- </a> -->
+              <p class="card-description">
+                Happiest Birthday Sista🤗! You know how much I love you and admire you.May God multiply your happiness and bless you all the time❤️Smile a lot not only today but always and receive lots of love, wishes and gifts.🎉.
+              </p>
+              <h6 class="card-category text-info">From Saylee</h6>
+              <!-- <a href="#pablo" class="btn btn-primary btn-round">
+                 Read Article
+              </a> -->
+            </div>
+          </div>
+        </div></div>
+
+        
+
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card card-raised card-background" style="background-color: #FFAEBC">
+                <div class="card-body">
+                  
+                  <!-- <a href="#pablo"> -->
+                    <h3 class="card-title">Happy Bday Jaya!!</h3>
+                  <!-- </a> -->
+                  <p class="card-description">
+                    Happy Happier Happiest 
+                    May your birthday be the best🎉!
+                    God will bless you always 
+                    May your success always raise!
+                    Education, career, life, 
+                    All should be best & great!
+                    Always get parents blessings &
+                    Friends caring & supporting!
+                    Always chase your dreams &
+                    I will pray for the fresh cream!
+                    Be always as you are
+                    Crazy & smart🙂! 
+                  </p>
+                  <h6 class="card-category text-info">From Rajul</h6>
+                  <!-- <a href="#pablo" class="btn btn-danger btn-round">
+                   Read Article
+                  </a> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card card-raised card-background" style="background-color:  #65FC6A;">
+                <div class="card-body">
+                  
+                  <!-- <a href="#pablo"> -->
+                    <h3 class="card-title">Happie Bday Bro!!</h3>
+                  <!-- </a> -->
+                  <p class="card-description">
+                    With a thankful heart and a nostalgic mind, I wish you the best birthday💥. I hope that this year brings you everything that you hope it will.🤗 I am wishing you an amazing 365 better than the one you’ve had before...💕 You've now completed ur 21st bro;where you are legally considered😜 independent nd matured one🤭😂😁
+                  </p>
+                  <h6 class="card-category text-info">From Dhanashree</h6>
+                  <!-- <a href="#pablo" class="btn btn-primary btn-round">
+                     Read Article
+                  </a> -->
+                </div>
+              </div>
+            </div></div>
+          
+        <div class="col-md-12" style="margin-top: 30px;">
+          <div class="card card-raised card-background" style="background-image: url('img/th (3).jpg');">
+            <div class="card-body">
+              
+              <h3 class="card-title">Happywala Bday Jayadi(Badbadi)😄!</h3>
+              <p class="card-description">
+                Happy Birthday to the one who’s always there for me. May you live to be so old that the mere sight of you horrifies young children 😜😄.
+                I have so many questions on your birthday🤔. What should I do to deserve a wonderful best friend like you?
+                 How to celebrate ur quarantine bday🎉?...nd finally I decided to give u this surprise🎁 .Hope u liked it. 
+                Happy, healthy, exceptional, rocking birthday to you my friend💗!
+                </p>
+              <!-- <a href="#pablo" class="btn btn-warning btn-round">
+                <i class="material-icons">subject</i> Read Case Study
+              </a> -->
+              <!-- <a href="#pablo" class="btn btn-white btn-just-icon btn-link" title="" rel="tooltip" data-original-title="Save to Pocket">
+                <i class="fa fa-get-pocket"></i>
+              </a> -->
+              <h6 class="card-category text-info">From Pradnya</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <hr class="featurette-divider">
+
+        <div class="row">
+          <img src="img/httpsblogs-images.forbes.comchuckcohnfiles201705Internal-business-meeting.jpg" class="col-md-6 col-lg-6 img-fluid p-3" style="height: 400px; width: 550px;">
+        <div class="col-md-6 col-lg-6 mt-5"><h2 style="font-family: Georgia, Sans-serif; text-align: center;">Heading</h2>
+          <p style="line-height: 200%;"> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, 
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+          </p></div>
+        </div> -->
+      
+
+    </div>
+  <!-- <hr> -->
+
+  <!-- <div class="jumbotron jumbotron-fluid mt-4" style="background-image: linear-gradient(to left top, #051937, #274165, #4a6f95, #6ea0c8, #95d4fc);;">
+    <div class="container py-5">
+      <h1 class="display-4">Fluid jumbotron</h1>
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      </blockquote>
+    </div>
+  </div> -->
+
+  <marquee><h4 style="margin-top: 20px;color: black;">😇STAY HAPPY, STAY SAFE & NJOY UR QUARANTINE BDAY😇</h4></marquee>
+  <hr> 
+   <!-- FOOTER -->
+  <footer class="fluid-container" id="cont">
+    <center><p><b>💗 Lots of Love From Pradnya, Rajul, Dhanashree, Saylee & Tanuja 💗</b><br>
+      <a href="#" style="color: black;">Back to top⬆</a></p></center>
+    <!-- <p>&copy; 2017-2020 Startupworld, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.5/dist/js/bootstrap.bundle.min.js" ></script></body>
+</html>
